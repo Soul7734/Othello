@@ -3,12 +3,11 @@
 #include <regex>
 #include <stdlib.h>
 
-#include "Player.cpp"
-#include "AI.cpp"
+#include "Player.h"
+#include "AI.h"
 #include "Game.h"
 
 using namespace std;
-using namespace game;
 
 Player player;
 AI ai;

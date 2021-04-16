@@ -1,8 +1,6 @@
 #pragma once
 
 // Board commands
-namespace board
-{
 	class Board
 	{
 	private:
@@ -43,4 +41,3 @@ namespace board
 		void flip_NW(int* board, int color, int x, int y);
 		int oppositePlayer(int color);
 	};
-}

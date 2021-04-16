@@ -1,9 +1,7 @@
 #pragma once
-#include "Board.cpp"
+#include "Board.h"
 
 // AI commands
-namespace ai
-{
 	class AI
 	{
 	private:
@@ -21,4 +19,3 @@ namespace ai
 		void HardMode();
 		void determineBoard(Board& board);
 	};
-}

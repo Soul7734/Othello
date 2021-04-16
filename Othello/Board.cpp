@@ -3,7 +3,6 @@
 #include "Board.h"
 
 using namespace std;
-using namespace board;
 
     Board::Board()
     {

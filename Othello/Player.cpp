@@ -1,5 +1,4 @@
 #include "Player.h"
-using namespace player;
 
 	Player::Player()
 	{

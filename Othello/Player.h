@@ -1,7 +1,5 @@
 #pragma once
 // Player commands
-namespace player
-{
 	class Player
 	{
 	private:
@@ -12,4 +10,3 @@ namespace player
 		int getPlayer1();
 		int getPlayer2();
 	};
-};

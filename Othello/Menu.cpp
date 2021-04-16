@@ -2,11 +2,10 @@
 #include <iostream>
 #include <stdlib.h>
 
-#include "Game.cpp"
-#include "Board.cpp"
+#include "Game.h"
+#include "Board.h"
 #include "Menu.h"
 using namespace std;
-using namespace menu;
 
 Game game;
 Board board;

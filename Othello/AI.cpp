@@ -1,8 +1,6 @@
 #include <cstdlib>
 #include "AI.h"
-#include "Player.cpp"
-
-using namespace ai;
+#include "Player.h"
 
 	Player player;
 	Board GameBoard;
