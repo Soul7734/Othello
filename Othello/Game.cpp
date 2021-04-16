@@ -168,4 +168,15 @@ AI ai;
 			}
 		}
 	}
+
+	bool Game::validateString(string text)
+	{
+		regex n("[0-7]");
+		return regex_match(text, n);
+	}
+
+	void Game::clear()
+	{
+		system("CLS");
+	}
 	
