@@ -1,4 +1,5 @@
 #pragma once
+#include <string>
 #include "Board.h"
 
 // Game commands
@@ -7,20 +8,20 @@ class Game
 private:
 	bool turnSwitch;
 	bool isPvp;
-	string xCoord;
-	string yCoord;
+	std::string xCoord;
+	std::string yCoord;
 public:
 	Game();
 	bool getTurnSwitch();
 	void flipTurn();
 	bool getIsPvp();
 	void setIsPvp(bool pvpMode);
-	string getXCoord();
+	std::string getXCoord();
 	void setXCoord();
-	string getYCoord();
+	std::string getYCoord();
 	void setYCoord();
 	void playGame(Board& board);
 	void playGameAI(Board& board);
-	bool validateString(string text);
+	bool validateString(std::string text);
 	void clear();
 };

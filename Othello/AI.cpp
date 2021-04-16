@@ -2,7 +2,7 @@
 #include "AI.h"
 #include "Player.h"
 
-	Player player;
+	Player user;
 	Board GameBoard;
 
 	int AI::randINT()
@@ -71,65 +71,65 @@
 			{
 				if (GameBoard.isTileEmpty(GameBoard.getCurrentBoard(), x, y) == true)
 				{
-					if (GameBoard.adjacent_N(GameBoard.getCurrentBoard(), player.getPlayer2(), x, y) == true)
+					if (GameBoard.adjacent_N(GameBoard.getCurrentBoard(), user.getPlayer2(), x, y) == true)
 					{
-						if (GameBoard.inline_N(GameBoard.getCurrentBoard(), player.getPlayer2(), x, y) == true)
+						if (GameBoard.inline_N(GameBoard.getCurrentBoard(), user.getPlayer2(), x, y) == true)
 						{
 							possibleFlips[0] = true;
 							n += 1;
 						}
 					}
-					if (GameBoard.adjacent_NE(GameBoard.getCurrentBoard(), player.getPlayer2(), x, y) == true)
+					if (GameBoard.adjacent_NE(GameBoard.getCurrentBoard(), user.getPlayer2(), x, y) == true)
 					{
-						if (GameBoard.inline_NE(GameBoard.getCurrentBoard(), player.getPlayer2(), x, y) == true)
+						if (GameBoard.inline_NE(GameBoard.getCurrentBoard(), user.getPlayer2(), x, y) == true)
 						{
 							possibleFlips[1] = true;
 							n += 1;
 						}
 					}
-					if (GameBoard.adjacent_E(GameBoard.getCurrentBoard(), player.getPlayer2(), x, y) == true)
+					if (GameBoard.adjacent_E(GameBoard.getCurrentBoard(), user.getPlayer2(), x, y) == true)
 					{
-						if (GameBoard.inline_E(GameBoard.getCurrentBoard(), player.getPlayer2(), x, y) == true)
+						if (GameBoard.inline_E(GameBoard.getCurrentBoard(), user.getPlayer2(), x, y) == true)
 						{
 							possibleFlips[2] = true;
 							n += 1;
 						}
 					}
-					if (GameBoard.adjacent_SE(GameBoard.getCurrentBoard(), player.getPlayer2(), x, y) == true)
+					if (GameBoard.adjacent_SE(GameBoard.getCurrentBoard(), user.getPlayer2(), x, y) == true)
 					{
-						if (GameBoard.inline_SE(GameBoard.getCurrentBoard(), player.getPlayer2(), x, y) == true)
+						if (GameBoard.inline_SE(GameBoard.getCurrentBoard(), user.getPlayer2(), x, y) == true)
 						{
 							possibleFlips[3] = true;
 							n += 1;
 						}
 					}
-					if (GameBoard.adjacent_S(GameBoard.getCurrentBoard(), player.getPlayer2(), x, y) == true)
+					if (GameBoard.adjacent_S(GameBoard.getCurrentBoard(), user.getPlayer2(), x, y) == true)
 					{
-						if (GameBoard.inline_S(GameBoard.getCurrentBoard(), player.getPlayer2(), x, y) == true)
+						if (GameBoard.inline_S(GameBoard.getCurrentBoard(), user.getPlayer2(), x, y) == true)
 						{
 							possibleFlips[4] = true;
 							n += 1;
 						}
 					}
-					if (GameBoard.adjacent_SW(GameBoard.getCurrentBoard(), player.getPlayer2(), x, y) == true)
+					if (GameBoard.adjacent_SW(GameBoard.getCurrentBoard(), user.getPlayer2(), x, y) == true)
 					{
-						if (GameBoard.inline_SW(GameBoard.getCurrentBoard(), player.getPlayer2(), x, y) == true)
+						if (GameBoard.inline_SW(GameBoard.getCurrentBoard(), user.getPlayer2(), x, y) == true)
 						{
 							possibleFlips[5] = true;
 							n += 1;
 						}
 					}
-					if (GameBoard.adjacent_W(GameBoard.getCurrentBoard(), player.getPlayer2(), x, y) == true)
+					if (GameBoard.adjacent_W(GameBoard.getCurrentBoard(), user.getPlayer2(), x, y) == true)
 					{
-						if (GameBoard.inline_W(GameBoard.getCurrentBoard(), player.getPlayer2(), x, y) == true)
+						if (GameBoard.inline_W(GameBoard.getCurrentBoard(), user.getPlayer2(), x, y) == true)
 						{
 							possibleFlips[6] = true;
 							n += 1;
 						}
 					}
-					if (GameBoard.adjacent_NW(GameBoard.getCurrentBoard(), player.getPlayer2(), x, y) == true)
+					if (GameBoard.adjacent_NW(GameBoard.getCurrentBoard(), user.getPlayer2(), x, y) == true)
 					{
-						if (GameBoard.inline_NW(GameBoard.getCurrentBoard(), player.getPlayer2(), x, y) == true)
+						if (GameBoard.inline_NW(GameBoard.getCurrentBoard(), user.getPlayer2(), x, y) == true)
 						{
 							possibleFlips[7] = true;
 							n += 1;
