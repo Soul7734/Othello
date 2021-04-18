@@ -3,6 +3,7 @@
 
 	class Menu
 	{
+	public:
 		void mainMenu();
 		void WhichGM();
 		void determineUserChoice();

@@ -1,8 +1,7 @@
 #pragma once
 
-#include "Menu.cpp"
-
-#include "AI.cpp"
-#include "Player.cpp"
-#include "Board.cpp"
-#include "Game.cpp"
+#include "Menu.h"
+#include "AI.h"
+#include "Player.h"
+#include "Board.h"
+#include "Game.h"
