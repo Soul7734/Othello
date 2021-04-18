@@ -142,6 +142,7 @@
     <ClCompile Include="AI.cpp" />
     <ClCompile Include="Board.cpp" />
     <ClCompile Include="Game.cpp" />
+    <ClCompile Include="Node.cpp" />
     <ClCompile Include="Menu.cpp" />
     <ClCompile Include="Othello.cpp" />
     <ClCompile Include="Player.cpp" />
@@ -150,6 +151,7 @@
     <ClInclude Include="AI.h" />
     <ClInclude Include="Board.h" />
     <ClInclude Include="Game.h" />
+    <ClInclude Include="Node.h" />
     <ClInclude Include="Menu.h" />
     <ClInclude Include="Othello.h" />
     <ClInclude Include="Player.h" />

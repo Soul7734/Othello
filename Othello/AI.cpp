@@ -1,6 +1,7 @@
 #include <cstdlib>
 #include "AI.h"
 #include "Player.h"
+#include "Node.h"
 
 	Player user;
 	Board GameBoard;
